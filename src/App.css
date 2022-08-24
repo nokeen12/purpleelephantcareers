@@ -1,0 +1,41 @@
+.section.one{
+    background-color: #8359E3;
+    color: white;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+    text-align: center;
+}
+.section.two{
+    background-color:white;
+}
+.square{
+    width: 450px;
+    height: 450px;
+    background:linear-gradient(#8359E3, rgba(255, 255, 255, 0.7) 50%);
+    border-radius: 100px;
+}
+.header.left{
+    width: 55%;
+    height: 100%;
+}
+.header.left p{
+    margin: 0px 60px;
+}
+#kelli{
+    width: 450px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.header.right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.header.right > *{
+    position:absolute;
+    bottom: 10px;
+}
