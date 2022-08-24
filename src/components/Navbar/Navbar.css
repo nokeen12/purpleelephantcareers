@@ -21,10 +21,10 @@ a{
 .rightSide{
     display:flex;
     flex-direction: row;
-    
     flex-wrap:nowrap;
 }
 .rightSide a{
+    border: 1px solid transparent;
     font-size: 20px;
     padding: 5px 10px;
     margin: 0px 30px;
