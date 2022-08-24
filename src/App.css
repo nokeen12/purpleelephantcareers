@@ -7,9 +7,6 @@
     padding: 0px 60px;
     text-align: center;
 }
-.section.two{
-    background-color:white;
-}
 .square{
     width: 450px;
     height: 450px;
@@ -38,4 +35,14 @@
 .header.right > *{
     position:absolute;
     bottom: 10px;
+}
+.section.two{
+    color: #8359E3;
+    margin: 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials{
+    display: flex;
 }
