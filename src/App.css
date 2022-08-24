@@ -43,6 +43,18 @@
     flex-direction: column;
     align-items: center;
 }
+.section.two ul{
+    color: black;
+}
 .testimonials{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.block{
+    background-color: rgba(131, 89, 227, .1);
+    color: #4D3786;
+    width: 49.5%;
+    height: 400px;
+    border-radius: 25px;
 }
