@@ -5,13 +5,13 @@ function Homepage(){
                 <div className="header left">
                     <h1>Helping You Address The Elephant In Your Career Journey</h1>
                     <p>As a Career Coach and resume writer,  my goal is to help you recognize and show how good you actually are! </p>
-                    <button>Book An Appointment</button>
+                    <button className="button one">BOOK AN APPOINTMENT</button>
                 </div>
                 <div className="header right">
                     <div className="square">
                     </div>
                     <img src="headshot.png" alt="kelli carroll" id="kelli"/>
-                    <button>Kelli M. Carroll, MS Ed., CCSP</button>
+                    <button className="button two">Kelli M. Carroll, MS Ed., CCSP</button>
                 </div>
             </header>
 
@@ -43,7 +43,7 @@ function Homepage(){
                     </div>
                 </div>
                 <h2>Still hesitating? Schedule a free consultation!</h2>
-                <button>Book An Appointment</button>
+                <button className="button three">BOOK AN APPOINTMENT</button>
             </div>
         </div>
     )
