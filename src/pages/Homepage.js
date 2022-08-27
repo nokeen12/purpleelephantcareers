@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Homepage(){
     return(
         <div className="homepage">
@@ -5,7 +7,7 @@ function Homepage(){
                 <div className="header left">
                     <h1>Helping You Address The Elephant In Your Career Journey</h1>
                     <p>As a Career Coach and resume writer,  my goal is to help you recognize and show how good you actually are! </p>
-                    <button className="button one">BOOK AN APPOINTMENT</button>
+                    <Link to="/booking" className="button one">BOOK AN APPOINTMENT</Link>
                 </div>
                 <div className="header right">
                     <div className="square">
@@ -43,7 +45,7 @@ function Homepage(){
                     </div>
                 </div>
                 <h2>Still hesitating? Schedule a free consultation!</h2>
-                <button className="button three">BOOK AN APPOINTMENT</button>
+                <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
             </div>
         </div>
     )

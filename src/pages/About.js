@@ -5,7 +5,7 @@ function About(){
             <div></div>
             <div></div>
             <h2></h2>
-            <Link to="booking" className="button three">BOOK AN APPOINTMENT</Link>
+            <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }
