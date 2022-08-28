@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Homepage(){
     return(
-        <div className="homepage">
+        <div>
             <header className="section one">
                 <div className="header left">
                     <h1>Helping You Address The Elephant In Your Career Journey</h1>
