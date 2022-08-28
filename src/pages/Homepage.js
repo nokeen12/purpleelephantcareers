@@ -35,13 +35,13 @@ function Homepage(){
                         <div>icon</div>
                         <div>text</div>
                         <div>name</div>
-                        <div>see more link</div>
+                        <Link to="/testimonials" className="seeMore">SEE MORE</Link>
                     </div>
                     <div className="block">
                         <div>icon</div>
                         <div>text</div>
                         <div>name</div>
-                        <div>see more link</div>
+                        <Link to="/testimonials" className="seeMore">SEE MORE</Link>
                     </div>
                 </div>
                 <h2>Still hesitating? Schedule a free consultation!</h2>
