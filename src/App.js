@@ -3,7 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Homepage from './pages/Homepage';
 import Footer from './components/Footer/Footer';
-import About from './pages/About';
+import AboutKelli from './pages/AboutKelli';
+import AboutPE from './pages/AboutPE';
 import Testimonials from './pages/Testimonials';
 import Services from './pages/Services';
 import Booking from './pages/Booking';
@@ -16,7 +17,8 @@ function App() {
         <Routes>
           <Route path='/' element={ <Homepage /> }/>
           <Route path='/home' element={ <Homepage /> }/>
-          <Route path='/about' element={ <About /> }/>
+          <Route path='/about' element={ <AboutKelli /> }/>
+          <Route path='/about-pe' element={ <AboutPE />}/>
           <Route path='/testimonials' element={ <Testimonials /> }/>
           <Route path='/services' element={ <Services /> }/>
           <Route path='/book' element={ <Booking /> }/>

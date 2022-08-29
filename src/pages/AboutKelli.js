@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function About(){
+function AboutKelli(){
     return(
         <div id='about'>
             <h2>About Kelli</h2>
@@ -29,4 +29,4 @@ function About(){
         </div>
     )
 }
-export default About;
+export default AboutKelli;
