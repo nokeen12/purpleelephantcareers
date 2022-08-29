@@ -197,3 +197,8 @@ p{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
     margin: 0px 10px;
 }
+.calendly-inline-widget{
+    min-width: 320px;
+    height: 630px;
+    background-color:rgba(131, 89, 227, .1);
+}
