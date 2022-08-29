@@ -15,19 +15,26 @@ a{
     color: white;
     font-size: 24px;
 }
-.navbar > *{
-    padding: 0 100px;
+.leftSide{
+    width: 40%;
+    padding-left: 100px;
+}
+.leftSide a{
+    width: 100%;
 }
 .rightSide{
     display:flex;
+    justify-content:space-between;
     flex-direction: row;
     flex-wrap:nowrap;
+    width: 60%;
+    padding-right: 100px;
 }
 .rightSide a{
     border: 1px solid transparent;
     font-size: 20px;
     padding: 5px 10px;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
 }
 .rightSide a:hover{
     border-bottom: 1px solid white;
