@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AboutPE(){
     return(
         <div id="aboutPE">
@@ -20,6 +22,8 @@ function AboutPE(){
                 The name Purple Elephant comes from Kelli’s love for purple and elephants. Purple is the color of royalty and is known to uplift, enlighten, inspire, and encourage. Elephant’s symbolize strength, good fortune, and happiness. They are sturdy animals known for their fortitude on long journeys. The career journey is one that is long and requires strength, fortitude, encouragement, and more. However, when you reach the peak, you receive good fortune, happiness, and your spirit is uplifted, enlightened and inspired.
                 </p>
             </div>
+            <h2>Why Hesitate? Schedule A Free Consultation Now!</h2>
+            <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }
