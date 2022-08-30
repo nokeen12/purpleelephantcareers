@@ -1,5 +1,5 @@
 import './Navbar.css';
-// import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import { Link } from "react-router-dom";
 function Navbar(){
     return(
@@ -12,7 +12,7 @@ function Navbar(){
                 <Link to="/about">About us</Link>
                 <Link to="/services">Services</Link>
                 <Link to="/book">Book an Appointment</Link>
-                {/* <HamburgerMenu /> */}
+                <HamburgerMenu />
             </div>
         </div>
     )

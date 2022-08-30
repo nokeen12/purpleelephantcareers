@@ -34,11 +34,26 @@ a{
     border: 1px solid transparent;
     font-size: 20px;
     padding: 5px 10px;
-    /* margin: 0px 30px; */
 }
 .rightSide a:hover{
     border-bottom: 1px solid white;
 }
 a{
     text-decoration: none;
+}
+
+@media (max-width: 975px){
+    .rightSide a{
+        color: red;
+        display: none;
+    }
+    #hamburgerMenu{
+        display:block;
+    }
+    .leftSide{
+        padding-left: 10%;
+    }
+    .rightSide{
+        padding-right: 10%;
+    }
 }

@@ -199,7 +199,7 @@ p{
 }
 #booking{
     height: 800px;
-    margin: 30px 60px;
+    /* margin: 30px 60px 100px 60px; */
 }
 .calendly-inline-widget{
     min-width: 320px;
@@ -226,4 +226,14 @@ p{
     font-size: 22px;
     line-height: 50px;
     letter-spacing: 3%;
+}
+@media (max-width: 975px){
+
+    .section.one{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .section.one > *{
+        width: 100%;
+    }
 }

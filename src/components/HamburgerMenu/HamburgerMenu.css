@@ -1,5 +1,8 @@
 #hamburgerMenu{
-    height: 50%; 
+    height: 100px;
+    width: 100%; 
+    color: white;
+    align-self: center;
 }
 #hamburgerMenu:hover{
     transform:translate(0, -2px)
