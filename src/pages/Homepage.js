@@ -32,13 +32,13 @@ function Homepage(){
                 <h2>Testimonials</h2>
                 <div className="testimonials">
                     <div className="block">
-                        <div>icon</div>
+                        <img src="icons/icon1.png" alt="face" />
                         <p>Kelli has played a huge role in my job search. She has gone beyond my expectations; providing resources, useful pointers, and being a friendly individual you can feel comfortable speaking with. I definitely feel more prepared looking for jobs because of her teachings. Kelli earns my highest recommendations!</p>
                         <p>MAURICIO C.</p>
                         <Link to="/testimonials" className="seeMore">SEE MORE</Link>
                     </div>
                     <div className="block">
-                        <div>icon</div>
+                    <img src="icons/icon2.png" alt="face" />
                         <p>Thoughtful, diligent, and supportive are the best words to describe Kelli. She took the time to get to know me as a client and supported me in my search for a career. Kelli is insightful and extremely knowledgeable in her field. I highly recommend Kelli to anyone who wants to explore their options for a more fulfilling career.</p>
                         <p>MICHAEL P.</p>
                         <Link to="/testimonials" className="seeMore">SEE MORE</Link>
