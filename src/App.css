@@ -197,9 +197,13 @@ p{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
     margin: 0px 10px;
 }
+#booking{
+    height: 800px;
+    margin: 30px 60px;
+}
 .calendly-inline-widget{
     min-width: 320px;
-    height: 630px;
+    height: 100%;
 }
 #aboutPE{
     display: flex;

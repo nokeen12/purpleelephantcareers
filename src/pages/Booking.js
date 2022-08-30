@@ -15,8 +15,7 @@ function Booking(){
       }, []);
       
     return(
-        <div>
-            booking page
+        <div id="booking">
             <div className="calendly-inline-widget" data-url="https://calendly.com/kellimcarroll?hide_landing_page_details=1"></div>
         </div>
     )
