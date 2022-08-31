@@ -1,0 +1,9 @@
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 60px 0px 60px;
+}
+.block.o{
+    background-color:white;
+}

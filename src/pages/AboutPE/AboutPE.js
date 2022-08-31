@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './AboutPE.css'
 function AboutPE(){
     return(
         <div id="aboutPE">

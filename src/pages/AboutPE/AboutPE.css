@@ -1,0 +1,22 @@
+#aboutPE{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutPE div{
+    display:flex;
+    justify-content:space-between;
+}
+#aboutPE div > *{
+    width: 50%;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+#aboutPE div p{
+    padding: 30px;
+    font-family: 'Lato';
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 3%;
+}

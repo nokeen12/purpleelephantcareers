@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom';
-
+import './Testimonials.css'
 function Testimonials(){
     return(
         <div id="testimonials">

@@ -1,0 +1,118 @@
+.section.one{
+    position: relative;
+    background-color: #8359E3;
+    color: white;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+    text-align: center;
+    z-index: 2;
+}
+.square{
+    width: 85%;
+    max-width: 450px;
+    height: 450px;
+    background:linear-gradient(#8359E3, rgba(255, 255, 255, 0.7) 50%);
+    border-radius: 100px;
+}
+.header.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    font-family: 'Lato-Italic';
+    height: 100%;
+
+}
+.header.left p{
+    font-size: 20px;
+    width: 70%;
+    margin: 0px 0px 40px 0px;
+}
+#kelli{
+    width: 85%;
+    max-width: 450px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.header.right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.header.right > *{
+    position:absolute;
+    bottom: 10px;
+}
+.section.two{
+    color: #8359E3;
+    margin: 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section.two ul{
+    color: black;
+}
+.testimonials{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.testimonials > *{
+    margin: 0 5px;
+}
+.block{
+    background-color: rgba(131, 89, 227, .1);
+    color: #4D3786;
+    width: 100%;
+    padding: 56px 40px 0px 25px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px -2px rgba(0,0,0,.15);
+    font-size: 22px;
+    display: flex;
+    line-height: 40px;
+    font-family: 'Lato-Italic';
+}
+.blockLeft{
+    margin-right: 20px;
+    height: 100%;
+}
+.blockRight p{
+    margin: 0;
+}
+.wavyLine{
+    margin-top: -1px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: scaleX(-1);
+    filter: drop-shadow( 0px 0px 3px rgba(0, 0, 0, .7));
+}
+.wavyLine svg{
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 99px;
+}
+.wavyLine .shapeFill{
+    fill: #8359E3;
+}
+.seeMore{
+    display: flex;
+    color:#8359E3;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: 'Lato';
+    justify-content: flex-end;
+    width: 100%;
+}
+.name{
+    font-family: 'Lato';
+    font-size: 16px;
+}

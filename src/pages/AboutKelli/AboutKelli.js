@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './AboutKelli.css'
 function AboutKelli(){
     return(
         <div id='about'>

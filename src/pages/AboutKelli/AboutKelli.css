@@ -1,0 +1,16 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about > *{
+    display: flex;
+    margin-bottom: 50px;
+}
+.aboutBox{
+    margin: 0 50px;
+    border-radius: 25px;
+    gap: 25px;
+    padding: 56px 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+}

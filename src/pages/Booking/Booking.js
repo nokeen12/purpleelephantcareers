@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import './Booking.css'
 function Booking(){
     useEffect(() => {
         const script = document.createElement('script');

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './Services.css'
 function Services(){
     return(
         <div id="services">
