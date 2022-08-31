@@ -2,9 +2,21 @@ footer{
     margin-top: 20px;
     background-color:#251D3E;
     color: #A9A9A9;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 60px;
+}
+@media (max-width: 520px){
+    footer{
+        padding: 10px;
+    }
+}
+@media (max-width: 375px){
+    footer{
+        padding: 10px;
+        flex-direction: column;
+        height: 100%;
+    }
 }

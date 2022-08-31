@@ -87,7 +87,7 @@ p{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .testimonials > *{
     margin: 0 5px;
@@ -126,8 +126,7 @@ p{
     font-size: 16px;
 }
 .wavyLine{
-    top: 0;
-    left: 0;
+    margin-top: -1px;
     width: 100%;
     overflow: hidden;
     line-height: 0;
@@ -145,7 +144,7 @@ p{
 }
 .button{
     border-radius: 25px;
-    width: 325px;
+    width: 60%;
     height: 75px;
     background-color: white;
     color: #8359E3;
@@ -157,6 +156,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .button.two{
     width: 75%;
@@ -253,9 +253,65 @@ p{
 
     .section.one{
         flex-direction: column;
-        height: 1000px;
+        height: 100%;
     }
     .section.one > *{
         width: 100%;
+    }
+    .header.right{
+        min-height: 600px;
+        height: 100%;
+    }
+    .square{
+        height: 80%;
+    }
+    .testimonials{
+        align-items: center;
+        flex-direction: column;
+    }
+    .testimonials > *{
+        margin-bottom: 20px;
+    }
+    .button{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media (max-width: 520px){
+    .header.right{
+        min-height: 450px;
+    }
+    footer{
+        padding: 10px 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    footer > *{
+        margin: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 375px){
+    .header.right{
+        min-height: 300px;
+    }
+    .block{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px 0;
+        flex-direction: column;
+        height: 100%;
+    }
+    footer > *{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 230px){
+    body{
+        word-break:break-all;
     }
 }
