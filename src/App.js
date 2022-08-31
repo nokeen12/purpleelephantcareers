@@ -1,13 +1,13 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Homepage from './pages/Homepage';
+import Homepage from './pages/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
-import AboutKelli from './pages/AboutKelli';
-import AboutPE from './pages/AboutPE';
-import Testimonials from './pages/Testimonials';
-import Services from './pages/Services';
-import Booking from './pages/Booking';
+import AboutKelli from './pages/AboutKelli/AboutKelli';
+import AboutPE from './pages/AboutPE/AboutPE';
+import Testimonials from './pages/Testimonials/Testimonials';
+import Services from './pages/Services/Services';
+import Booking from './pages/Booking/Booking';
 
 function App() {
   return (

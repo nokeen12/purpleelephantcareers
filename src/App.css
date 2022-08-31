@@ -159,7 +159,7 @@ p{
     text-align: center;
 }
 .button.two{
-    width: 75%;
+    width: 58%;
     height: 60px;
     margin-bottom: 50px;
     border-radius: 20px;
@@ -277,6 +277,9 @@ p{
         margin-left: 0;
         margin-right: 0;
     }
+    .button.two{
+        width: 50%;
+    }
 }
 @media (max-width: 520px){
     .header.right{
@@ -290,6 +293,9 @@ p{
     footer > *{
         margin: 0;
         width: 100%;
+    }
+    .button.two{
+        width: 80%;
     }
 }
 @media (max-width: 375px){
@@ -308,6 +314,9 @@ p{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .button.two{
+        width: 100%;
     }
 }
 @media (max-width: 230px){
