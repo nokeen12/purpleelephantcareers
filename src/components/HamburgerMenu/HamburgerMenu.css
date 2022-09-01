@@ -7,3 +7,8 @@
 #hamburgerMenu:hover{
     transform:translate(0, -2px)
 }
+@media (max-width: 866px){
+    #hamburgerMenu{
+        display:block;
+    }
+}

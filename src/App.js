@@ -9,6 +9,7 @@ import AboutPE from './pages/AboutPE/AboutPE';
 import Testimonials from './pages/Testimonials/Testimonials';
 import Services from './pages/Services/Services';
 import Booking from './pages/Booking/Booking';
+import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </NavItem>
         <NavItem text="Services" link="/services"/>
         <NavItem text="Book an Appointment" link="/book"/>
+        <NavItem icon={<HamburgerMenu/>}>
+          <DropdownMenu type="2"/>
+        </NavItem>
       </Navbar>
       <div className='routes'>
         <Routes>

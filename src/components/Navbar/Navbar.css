@@ -16,6 +16,8 @@ a{
     font-size: 24px;
 }
 .leftSide{
+    display: flex;
+    text-align: center;
     width: 40%;
     padding-left: 100px;
 }
@@ -61,24 +63,44 @@ li{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+.dropdown.two{
+    top: 90px;
+    transform: translateX(-30%);
+}
 .menu-item{
     height: 50px;
     display: flex;
     align-items: center;
     padding: 0.5rem;
 }
+@media (max-width: 1050px){
+    .leftSide{
+        padding-left: 2%;
+    }
+    .navbar-nav{
+        padding-right: 2%;
+    }
+}
 @media (max-width: 975px){
-    .rightSide a{
-        color: red;
+    .leftSide{
+        padding-left: 1%;
+    }
+    .navbar-nav{
+        padding-right: 1%;
+    }
+}
+@media (max-width: 866px){
+    .leftSide{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-link{
         display: none;
     }
-    #hamburgerMenu{
-        display:block;
+    svg a {
+        display: block;
     }
-    .leftSide{
-        padding-left: 10%;
-    }
-    .rightSide{
-        padding-right: 10%;
+    .navbar-nav{
+        padding: 0;
     }
 }
