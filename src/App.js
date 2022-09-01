@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import { Navbar, NavItem, DropdownMenu } from './components/Navbar/Navbar';
+
 import Homepage from './pages/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
 import AboutKelli from './pages/AboutKelli/AboutKelli';
@@ -12,7 +13,14 @@ import Booking from './pages/Booking/Booking';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar>
+        <NavItem text="Home" link="/home"/>
+        <NavItem text="About us" link="#">
+          <DropdownMenu/>
+        </NavItem>
+        <NavItem text="Services" link="/services"/>
+        <NavItem text="Book an Appointment" link="/book"/>
+      </Navbar>
       <div className='routes'>
         <Routes>
           <Route path='/' element={ <Homepage /> }/>

@@ -1,20 +1,51 @@
 import './Navbar.css';
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+// import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import { Link } from "react-router-dom";
-function Navbar(){
+import React, { useState } from 'react';
+
+function Navbar(props){
     return(
-        <div className='navbar'>
+        <nav className="navbar">
             <div className="leftSide">
                 <Link to="/">Logo | Purple Elephant Careers</Link>
             </div>
-            <div className="rightSide">
-                <Link to="/home">Home</Link>
-                <Link to="/about">About us</Link>
-                <Link to="/services">Services</Link>
-                <Link to="/book">Book an Appointment</Link>
-                <HamburgerMenu />
-            </div>
+            <ul className="navbar-nav">{ props.children }</ul>
+        </nav>
+    )
+}
+
+function NavItem(props){
+
+    const [open, setOpen] = useState(false);
+    return(
+        <li className="nav-item">
+            <Link to={props.link} className="nav-link" onClick={() => setOpen(!open)}>
+                {props.text}
+            </Link>
+
+            {open && props.children}
+        </li>
+    )
+}
+function DropdownMenu(){
+
+    function DropdownItem(props){
+        return(
+            <Link to={props.link} className="menu-item">
+                {props.children}
+            </Link>
+        )
+    }
+    return(
+        <div className="dropdown">
+            <DropdownItem link="/about">Biography</DropdownItem>
+            <DropdownItem link="/about-pe">Company</DropdownItem>
+            <DropdownItem link="/testimonials">Testimonials</DropdownItem>
         </div>
     )
 }
-export default Navbar;
+export {
+    Navbar,
+    NavItem,
+    DropdownMenu
+}
