@@ -45,6 +45,7 @@ p{
 }
 .button.two{
     width: 58%;
+    max-width: 424px;
     height: 60px;
     margin-bottom: 50px;
     border-radius: 20px;
