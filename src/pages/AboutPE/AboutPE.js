@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import './AboutPE.css'
 function AboutPE(){
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
     return(
         <div id="aboutPE">
             <h2>About Purple Elephant</h2>
@@ -23,7 +27,7 @@ function AboutPE(){
                 </p>
             </div>
             <h2>Why Hesitate? Schedule A Free Consultation Now!</h2>
-            <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
+            <Link to="/book" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }

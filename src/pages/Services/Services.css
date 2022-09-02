@@ -1,8 +1,9 @@
 #services{
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items:center;
-    margin: 0 60px;
+    margin: 4%;
 }
 #serviceSection{
     display:flex;
@@ -11,8 +12,9 @@
 }
 .serviceBlock{
     display: flex;
+    position: relative;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
@@ -20,4 +22,75 @@
 }
 .serviceBlock img{
     width: 100%;
+}
+.serviceBlock ul{
+    margin-bottom: 50px;
+}
+.serviceBlock ul li::before{
+    content: "\2022";
+    color: #8359E3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+}
+.serviceBlock ul li{
+    font-size: 22px;
+    line-height: 32px;
+}
+.serviceHover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 22%;
+    padding: 2%;
+    /* bottom: 50%; */
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(4px);
+}
+
+@media (min-width: 2000px){
+    .serviceHover{
+        top: 45%;
+    }
+}
+@media (max-width: 1999px){
+    .serviceHover{
+        top: 40%;
+    }
+}
+@media (max-width: 1520px){
+    .serviceHover{
+        top: 30%;
+    }
+}
+@media (max-width: 1200px){
+    .serviceHover{
+        top: 25%;
+    }
+}
+@media (max-width: 1050px){
+    .serviceHover{
+        top: 20%;
+    }
+}
+@media (max-width: 866px){
+    #serviceSection{
+        flex-direction: column;
+    }
+    #serviceSection div:first-child{
+        margin-bottom: 40px;
+    }
+    .serviceHover{
+        top: 40%;
+    }
+}
+@media (max-width: 775px){
+    .serviceHover{
+        top: 20%;
+    }
+}
+@media (max-width: 500px){
+    .serviceHover{
+        top: 1%;
+    }
 }

@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import './Homepage.css'
 function Homepage(){
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
     return(
         <div>
             <header className="section one">
                 <div className="header left">
                     <h1>Helping You Address The Elephant In Your Career Journey</h1>
                     <p>As a Career Coach and resume writer,  my goal is to help you recognize and show how good you actually are! </p>
-                    <Link to="/booking" className="button one">BOOK AN APPOINTMENT</Link>
+                    <Link to="/book" className="button one">BOOK AN APPOINTMENT</Link>
                 </div>
                 <div className="header right">
                     <div className="square">
@@ -53,7 +57,7 @@ function Homepage(){
                     </div>
                 </div>
                 <h2>Still hesitating? Schedule a free consultation!</h2>
-                <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
+                <Link to="/book" className="button three">BOOK AN APPOINTMENT</Link>
             </div>
         </div>
     )
