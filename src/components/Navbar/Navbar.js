@@ -6,7 +6,10 @@ function Navbar(props){
     return(
         <nav className="navbar">
             <div className="leftSide">
-                <Link to="/">Logo | Purple Elephant Careers</Link>
+                <Link to="/">
+                    <img src="Logo.png" alt="logo"/>
+                    Purple Elephant Careers
+                </Link>
             </div>
             <ul className="navbar-nav">
                 { props.children }

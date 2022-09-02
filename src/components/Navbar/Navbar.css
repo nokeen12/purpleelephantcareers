@@ -20,17 +20,24 @@ a{
     text-align: center;
     width: 40%;
     padding-left: 100px;
+    justify-content: center;
+    align-items: center;
 }
 .leftSide a{
+    display: flex;
+    align-items: center;
     width: 100%;
+}
+.leftSide img{
+    height: 50%;
 }
 .navbar-nav{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-direction: row;
     flex-wrap:nowrap;
     width: 60%;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 .navbar-nav a{
     border: 1px solid transparent;
