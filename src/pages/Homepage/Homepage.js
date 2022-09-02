@@ -16,7 +16,7 @@ function Homepage(){
                 <div className="header right">
                     <div className="square">
                     </div>
-                    <img src="headshot.png" alt="kelli carroll" id="kelli"/>
+                    <img src="./headshot.png" alt="kelli carroll" id="kelli"/>
                     <Link to="/about" className="button two">Kelli M. Carroll, MS Ed., CCSP</Link>
                 </div>
             </header>
@@ -37,7 +37,7 @@ function Homepage(){
                 <div className="testimonials">
                     <div className="block">
                         <div className="blockLeft">
-                            <img src="icons/icon1.png" alt="face" />
+                            <img src="./icons/icon1.png" alt="face" />
                         </div>
                         <div className="blockRight">
                         <p>Kelli has played a huge role in my job search. She has gone beyond my expectations; providing resources, useful pointers, and being a friendly individual you can feel comfortable speaking with. I definitely feel more prepared looking for jobs because of her teachings. Kelli earns my highest recommendations!</p>
@@ -47,7 +47,7 @@ function Homepage(){
                     </div>
                     <div className="block">
                         <div className="blockLeft">
-                            <img src="icons/icon2.png" alt="face" />
+                            <img src="./icons/icon2.png" alt="face" />
                         </div>
                         <div className="blockRight">
                             <p>Thoughtful, diligent, and supportive are the best words to describe Kelli. She took the time to get to know me as a client and supported me in my search for a career. Kelli is insightful and extremely knowledgeable in her field. I highly recommend Kelli to anyone who wants to explore their options for a more fulfilling career.</p>

@@ -10,7 +10,7 @@ function Services(){
             <h2>Services</h2>
             <div id="serviceSection">
                 <div className="serviceBlock">
-                    <img src="writing.png" alt="writing" />
+                    <img src="./writing.png" alt="writing" />
                     <h2 className="serviceHover">Writing</h2>
                     <ul>
                         <li>Resumes</li>
@@ -21,7 +21,7 @@ function Services(){
                     </ul>
                 </div>
                 <div className="serviceBlock">
-                    <img src="coaching.png" alt="laptop" />
+                    <img src="./coaching.png" alt="laptop" />
                     <h2 className="serviceHover">Coaching</h2>
                     <ul>
                         <li>Job Search</li>
