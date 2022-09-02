@@ -8,6 +8,9 @@ footer{
     align-items: center;
     padding: 10px 60px;
 }
+footer p{
+    font-size: 16px;
+}
 @media (max-width: 520px){
     footer{
         padding: 10px;

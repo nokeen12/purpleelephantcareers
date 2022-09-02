@@ -13,7 +13,7 @@ function Homepage(){
                     <div className="square">
                     </div>
                     <img src="headshot.png" alt="kelli carroll" id="kelli"/>
-                    <button className="button two">Kelli M. Carroll, MS Ed., CCSP</button>
+                    <Link to="/about" className="button two">Kelli M. Carroll, MS Ed., CCSP</Link>
                 </div>
             </header>
 

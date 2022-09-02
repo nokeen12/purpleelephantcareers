@@ -57,6 +57,12 @@
 }
 .section.two ul{
     color: black;
+    margin-bottom: 50px;
+}
+.section.two li{
+    list-style: inside;
+    line-height: 32px;
+    font-size: 22px;
 }
 .testimonials{
     display: flex;

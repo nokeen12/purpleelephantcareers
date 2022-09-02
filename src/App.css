@@ -38,6 +38,10 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: 0.4s;
+}
+.button:hover{
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.5);
 }
 .button.two{
     width: 58%;
@@ -48,10 +52,23 @@ p{
     letter-spacing: 0.01em;
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
 }
+.button.two:hover{
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.5);
+}
 .button.three{
     height: 100px;
+    border: 1px solid #8359E3;
     background-color: #8359E3;
     color: white;
+    background-image: linear-gradient(to left, transparent 50%, white 50%);
+    background-size: 201%;
+    background-position: 100%;
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
     margin-top: 13px;
+    margin-bottom: 100px;
+}
+.button.three:hover{
+    color: #8359E3;
+    background-position: 0%;
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.5);
 }
