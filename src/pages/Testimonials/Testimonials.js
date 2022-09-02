@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Testimonials.css'
 function Testimonials(){
     return(
@@ -22,7 +22,7 @@ function Testimonials(){
                 <img src="icons/icon3.png" alt="face" />
                 <div>
                     <p>Kelli is an organizational development genius. She takes care of every little step before you can even think of it in order to bring the most fully realized results. Her intellect as an administrator, educator, instructor, mentor, and friend speaks to her high value and the assets she brings to her many different teams. I recommend Kelli to any institution, organization, or facility that is in need of refined structure and increased team cohesion levels.</p>
-                    <p>Andrea L</p>
+                    <p>Andrea L.</p>
                 </div>
             </div>
             <div className="block o">
@@ -50,7 +50,7 @@ function Testimonials(){
                 <img src="icons/icon7.png" alt="face" />
                 <div>
                     <p>Kelli is extremely professional, timely, efficient and detailed oriented. After our consultation, she provided me with a date of completion and delivered prior to the set date. She reconstructed my resume so well I immediately got call backs and landed a career that I love! Thank you Kelli!!</p>
-                    <p>Aliyah S</p>
+                    <p>Aliyah S.</p>
                 </div>
             </div>
             <div className="block o">
@@ -67,6 +67,8 @@ function Testimonials(){
                     <p>armani C.</p>
                 </div>
             </div>
+            <h2>Why Hesitate? Schedule A Free Consultation Now!</h2>
+            <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }
