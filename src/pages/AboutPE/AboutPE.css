@@ -20,3 +20,21 @@
     line-height: 50px;
     letter-spacing: 3%;
 }
+@media (max-width: 1000px){
+    #aboutPE div{
+        align-items: center;
+        flex-direction: column;
+    }
+    #aboutPE div > *{
+        width:90%;
+        padding: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #aboutPE div img{
+        padding: 0;
+    }
+    #aboutPE div p{
+        padding: 1%;
+    }
+}
