@@ -15,4 +15,4 @@ Website made by Cordre Payne for Kelli M. Carroll.
 JavaScript, React, HTML, CSS, Figma
 
 ## Images
--
+![Homepage](images/PEC.png)
