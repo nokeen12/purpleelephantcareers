@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PEC/static/css/main.44449326.css",
-    "main.js": "/PEC/static/js/main.9df47c09.js",
-    "static/media/Lato-Italic.ttf": "/PEC/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
-    "static/media/Lato-Regular.ttf": "/PEC/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "static/media/Lato-Bold.ttf": "/PEC/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
-    "index.html": "/PEC/index.html",
-    "main.44449326.css.map": "/PEC/static/css/main.44449326.css.map",
-    "main.9df47c09.js.map": "/PEC/static/js/main.9df47c09.js.map"
+    "main.css": "/purpleelephantcareers/static/css/main.b398dacb.css",
+    "main.js": "/purpleelephantcareers/static/js/main.9df47c09.js",
+    "static/media/Lato-Italic.ttf": "/purpleelephantcareers/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
+    "static/media/Lato-Regular.ttf": "/purpleelephantcareers/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Lato-Bold.ttf": "/purpleelephantcareers/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "index.html": "/purpleelephantcareers/index.html",
+    "main.b398dacb.css.map": "/purpleelephantcareers/static/css/main.b398dacb.css.map",
+    "main.9df47c09.js.map": "/purpleelephantcareers/static/js/main.9df47c09.js.map"
   },
   "entrypoints": [
-    "static/css/main.44449326.css",
+    "static/css/main.b398dacb.css",
     "static/js/main.9df47c09.js"
   ]
 }
