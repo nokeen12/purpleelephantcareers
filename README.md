@@ -18,6 +18,8 @@ or
 
 JavaScript, React, HTML, CSS, Figma
 
+Figma Design File: [Figma File](https://www.figma.com/file/T8RI6e8V46gwmabqpfilzW/Purple-Elephant-Services_final?node-id=239%3A4147)
+
 ## Images
 
 ![Homepage](images/PEC.png)
