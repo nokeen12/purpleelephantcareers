@@ -1,10 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Purple Elephant Careers
 
-## Required Dependencies
-### `npm i`
+## Learn about Purple Elephant Careers and schedule an appointment for resume writing or career coach services.
 
-## To Start App, Run
-### `npm start`
+Website made by Cordre Payne for Kelli M. Carroll.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to run application
+
+1. Clone this project
+2. Inside the root folder, install dependencies with the command - `npm install`
+3. Run `npm start` in the root folder to start the application on [http://localhost:3000](http://localhost:3000)
+
+### Tech
+
+JavaScript, React, HTML, CSS, Figma
+
+## Images
+-
