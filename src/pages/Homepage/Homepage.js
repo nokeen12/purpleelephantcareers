@@ -42,7 +42,7 @@ function Homepage(){
                         <div className="blockRight">
                         <p>Kelli has played a huge role in my job search. She has gone beyond my expectations; providing resources, useful pointers, and being a friendly individual you can feel comfortable speaking with. I definitely feel more prepared looking for jobs because of her teachings. Kelli earns my highest recommendations!</p>
                         <p className="name">MAURICIO C.</p>
-                        <Link to="/testimonials" className="seeMore">SEE MORE</Link>
+                        <Link to="/purpleelephantcareers/testimonials" className="seeMore">SEE MORE</Link>
                         </div>
                     </div>
                     <div className="block">
@@ -52,12 +52,12 @@ function Homepage(){
                         <div className="blockRight">
                             <p>Thoughtful, diligent, and supportive are the best words to describe Kelli. She took the time to get to know me as a client and supported me in my search for a career. Kelli is insightful and extremely knowledgeable in her field. I highly recommend Kelli to anyone who wants to explore their options for a more fulfilling career.</p>
                             <p className="name">MICHAEL P.</p>
-                            <Link to="/testimonials" className="seeMore">SEE MORE</Link>
+                            <Link to="/purpleelephantcareers/testimonials" className="seeMore">SEE MORE</Link>
                         </div>
                     </div>
                 </div>
                 <h2>Still hesitating? Schedule a free consultation!</h2>
-                <Link to="/book" className="button three">BOOK AN APPOINTMENT</Link>
+                <Link to="/purpleelephantcareers/book" className="button three">BOOK AN APPOINTMENT</Link>
             </div>
         </div>
     )

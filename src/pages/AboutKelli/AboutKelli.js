@@ -34,7 +34,7 @@ function AboutKelli(){
                 <img src="./kelli1.png" alt="kelli with dog"/>
             </div>
             <h2>Why Hesitate? Schedule A Free Consultation Now!</h2>
-            <Link to="/book" className="button three">BOOK AN APPOINTMENT</Link>
+            <Link to="/purpleelephantcareers/book" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }

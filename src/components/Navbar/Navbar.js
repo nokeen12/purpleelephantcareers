@@ -6,7 +6,7 @@ function Navbar(props){
     return(
         <nav className="navbar">
             <div className="leftSide">
-                <Link to="/">
+                <Link to="/purpleelephantcareers">
                     <img src="Logo.png" alt="logo"/>
                     Purple Elephant Careers
                 </Link>
@@ -50,19 +50,19 @@ function DropdownMenu(props){
         <>
         {!props.type &&
             <div className="dropdown">
-                    <DropdownItem link="/about">Biography</DropdownItem>
-                    <DropdownItem link="/about-pe">Company</DropdownItem>
-                    <DropdownItem link="/testimonials">Testimonials</DropdownItem>
+                    <DropdownItem link="/purpleelephantcareers/about">Biography</DropdownItem>
+                    <DropdownItem link="/purpleelephantcareers/about-pe">Company</DropdownItem>
+                    <DropdownItem link="/purpleelephantcareers/testimonials">Testimonials</DropdownItem>
             </div>
         }
         {props.type && 
             <div className="dropdown two">
-                <DropdownItem link="/home">Home</DropdownItem>
-                <DropdownItem link="/services">Services</DropdownItem>
-                <DropdownItem link="/book">Booking</DropdownItem>
-                <DropdownItem link="/about">Biography</DropdownItem>
-                <DropdownItem link="/about-pe">Company</DropdownItem>
-                <DropdownItem link="/testimonials">Testimonials</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/home">Home</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/services">Services</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/book">Booking</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/about">Biography</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/about-pe">Company</DropdownItem>
+                <DropdownItem link="/purpleelephantcareers/testimonials">Testimonials</DropdownItem>
             </div>
         }
         </>

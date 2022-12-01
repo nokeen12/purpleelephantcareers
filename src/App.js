@@ -15,25 +15,25 @@ function App() {
   return (
     <div className="App">
       <Navbar>
-        <NavItem text="Home" link="/home"/>
+        <NavItem text="Home" link="/purpleelephantcareers/home"/>
         <NavItem text="About us" link="#">
           <DropdownMenu/>
         </NavItem>
-        <NavItem text="Services" link="/services"/>
-        <NavItem text="Book an Appointment" link="/book"/>
+        <NavItem text="Services" link="/purpleelephantcareers/services"/>
+        <NavItem text="Book an Appointment" link="/purpleelephantcareers/book"/>
         <NavItem icon={<HamburgerMenu/>}>
           <DropdownMenu type="2"/>
         </NavItem>
       </Navbar>
       <div className='routes'>
         <Routes>
-          <Route path='/' element={ <Homepage /> }/>
-          <Route path='/home' element={ <Homepage /> }/>
-          <Route path='/about' element={ <AboutKelli /> }/>
-          <Route path='/about-pe' element={ <AboutPE />}/>
-          <Route path='/testimonials' element={ <Testimonials /> }/>
-          <Route path='/services' element={ <Services /> }/>
-          <Route path='/book' element={ <Booking /> }/>
+          <Route path='/purpleelephantcareers' element={ <Homepage /> }/>
+          <Route path='/purpleelephantcareers/home' element={ <Homepage /> }/>
+          <Route path='/purpleelephantcareers/about' element={ <AboutKelli /> }/>
+          <Route path='/purpleelephantcareers/about-pe' element={ <AboutPE />}/>
+          <Route path='/purpleelephantcareers/testimonials' element={ <Testimonials /> }/>
+          <Route path='/purpleelephantcareers/services' element={ <Services /> }/>
+          <Route path='/purpleelephantcareers/book' element={ <Booking /> }/>
         </Routes>
       </div>
       <Footer />

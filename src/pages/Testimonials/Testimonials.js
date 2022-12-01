@@ -72,7 +72,7 @@ function Testimonials(){
                 </div>
             </div>
             <h2>Why Hesitate? Schedule A Free Consultation Now!</h2>
-            <Link to="/booking" className="button three">BOOK AN APPOINTMENT</Link>
+            <Link to="/purpleelephantcareers/booking" className="button three">BOOK AN APPOINTMENT</Link>
         </div>
     )
 }
