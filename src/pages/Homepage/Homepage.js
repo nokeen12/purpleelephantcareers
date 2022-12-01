@@ -11,13 +11,13 @@ function Homepage(){
                 <div className="header left">
                     <h1>Helping You Address The Elephant In Your Career Journey</h1>
                     <p>As a Career Coach and resume writer,  my goal is to help you recognize and show how good you actually are! </p>
-                    <Link to="/book" className="button one">BOOK AN APPOINTMENT</Link>
+                    <Link to="/purpleelephantcareers/book" className="button one">BOOK AN APPOINTMENT</Link>
                 </div>
                 <div className="header right">
                     <div className="square">
                     </div>
                     <img src="./headshot.png" alt="kelli carroll" id="kelli"/>
-                    <Link to="/about" className="button two">Kelli M. Carroll, MS Ed., CCSP</Link>
+                    <Link to="/purpleelephantcareers/about" className="button two">Kelli M. Carroll, MS Ed., CCSP</Link>
                 </div>
             </header>
 
